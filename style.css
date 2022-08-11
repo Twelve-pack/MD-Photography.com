@@ -1,0 +1,436 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+.nav-bar{
+
+	display: flex;
+	position: fixed;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: black;
+	border-radius: 20px;
+	padding-top: 6px;
+	padding-left: 23px;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+
+.option{
+      
+    
+	margin-left: 198px;
+	font-size: 20px;
+
+}
+
+.btn{
+
+	color: white;
+	text-decoration: none;
+	padding-right: 2px;
+}
+
+.btn:hover{
+     
+     color: white;
+	border-bottom: 3px solid red ;
+
+}
+
+
+
+
+
+.submit{
+	margin-left: 280px;
+	padding-right: 30px;
+
+}
+
+
+
+
+.sub{
+
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 10px 10px;
+	border-radius: 30px;
+}
+
+.sub:hover{
+
+	border: 2px solid red;
+	color: red;
+}
+
+/*-----------------------------------------------nav comply---------------------------------*/
+
+.banner-one{
+    
+    height: 100vh;
+    width: 100%;
+	background-image: url(img/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 120px;
+}
+
+.banner-one h1{
+
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+span{
+
+	font-family: forte;
+}
+
+.banner-one a{
+
+	margin-left: 45%;
+	text-decoration: none;
+	color: white;
+	border-radius: 30px;
+	background-color: orange;
+	border: 2px solid orange;
+	padding: 10px 10px;
+
+}
+
+.banner-one a:hover{
+
+	color: white;
+	background-color: black;
+	border: 2px solid red;
+}
+
+.banner-one p{
+
+	padding-top: 50px;
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+/*-------------------------------------banner two-----------------*/
+
+.banner-two{
+
+	height: 100vh;
+    width: 100%;
+	background-image: url(img/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 120px;
+
+
+}
+
+.banner-two h1{
+
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.banner-two p{
+
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: rgba(650, 650, 650, 0.3);
+	padding-left: 9px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 25px;
+
+
+}
+
+/*-----------------------------banner three----------------------------------*/
+
+.banner-three{
+
+	height: 100vh;
+    width: 100%;
+	background-image: url(img/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 120px;
+	text-align: center;
+
+}
+
+.banner{
+
+	background-color: rgba(149, 165, 166, 0.8);
+	padding-top: 4px;
+	padding-bottom: 16px;
+	margin-left: 250px;
+	width: 500px;
+	border-radius: 30px;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.banner-three h1{
+
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.banner-three h1:hover{
+
+	color: blue;
+}
+
+.banner-three i{
+   
+	color: white;
+	margin-top: 30px;
+	font-size: 40px;
+	padding-right: 50px;
+	padding-left: 20px;
+}
+
+.banner-three i:hover{
+
+	color: blue;
+}
+
+
+
+/*-----------------------------------------banner four----------------------------*/
+
+.banner-four{
+
+	height: 95vh;
+    width: 100%;
+	background-image: url(img/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 80px;
+	display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gmail input{
+
+	 margin-left: 100px;
+	 height: 23px;
+	 width: 280px;
+	 font-size: 18px;
+	 border: 2px solid black;
+	 padding: 10px 10px;
+	 border-radius: 30px;
+	 text-align: center;
+}
+
+.gmail h1{
+
+	margin-left: 180px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.gmail a{
+
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	border-radius: 30px;
+	border: 2px solid black;
+	padding: 5px 5px;
+	margin-left: 200px;
+
+}
+
+.gmail a:hover{
+
+	color: black;
+	background-color: white;
+}
+
+.gmail{
+
+	background-color: rgba(650, 650, 650, 0.3);
+	margin-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 76px;
+	border-left: 120px;
+	border-radius: 30px;
+}
+
+.content img{
+
+	margin-right: 90px;
+	border-radius: 250px;
+}
+
+html{
+
+	scroll-behavior: smooth;
+}
+
+/*----------------------------------media quary------------------------------------*/
+
+@media (max-width: 550px){
+
+	.option{
+      
+    margin-left: 110px;
+    margin-right: 60px;
+	font-size: 17px;
+	}
+
+	.submit{
+	  display: none;
+}
+
+   .banner-four{
+
+   	display: block;
+   	font-size: 15px;
+   }
+
+   .gmail input{
+
+	 margin-left: 110px;
+	 height: 23px;
+	 width: 200px;
+	 font-size: 18px;
+	 border: 2px solid black;
+	 padding: 10px 10px;
+	 border-radius: 30px;
+	 text-align: center;
+}
+   .banner-one h1{
+
+	font-size: 40px;
+} 
+
+   .banner-one{
+
+   	height: 110vh;
+   	width: 125.2%;
+
+   }
+
+   
+/*-----------------------------------banner two--------------------*/
+
+   .banner-two{
+   	    height: 110vh;
+   	width: 125.2%;
+
+   	padding-top: 180px;
+   }
+
+   /*-----------------------------------banner three--------------------*/
+
+   .banner-three{
+
+   	height: 119vh;
+   width: 125.2%;
+
+   }
+
+   .banner{
+
+   	position: absolute;
+   	top: 287%;
+   	left: 10%;
+   }
+
+   /*-----------------------------------banner four--------------------*/
+
+   .banner-four{
+   	height: 100vh;
+   width: 125.2%;
+
+   }
+
+   .gmail{
+
+	background-color: rgba(650, 650, 650, 0.3);
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 76px;
+	border-left: 120px;
+	border-radius: 30px;
+}  
+
+   .content img{
+
+   	padding-top: 30px;
+   	padding-left: 30px;
+   }
+    
+    .nav-bar{
+
+	display: flex;
+	position: fixed;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: black;
+	padding-top: 6px;
+	padding-left: 23px;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+
+  .banner{
+
+	background-color: rgba(149, 165, 166, 0.8);
+	margin-top: 50px;
+	margin-left: 20px;
+	width: 400px;
+	
+}
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
